@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 3rem;
   border-bottom: 1px solid rgb(190, 190, 190);
 } 
 .navbar-item{
