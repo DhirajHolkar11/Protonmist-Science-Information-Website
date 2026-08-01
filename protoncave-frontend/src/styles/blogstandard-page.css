@@ -1,0 +1,25 @@
+.blogsstandard-loading{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 100px;
+  color: #777;
+}
+.blogstandard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+.blogstandard-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.blogstandard-intro {
+  font-size: 1.6rem;
+}
+.blogstandard-content {
+  font-size: 1.6rem;
+}
+
+  
