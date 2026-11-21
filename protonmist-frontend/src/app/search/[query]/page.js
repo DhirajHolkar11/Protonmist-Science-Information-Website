@@ -19,7 +19,7 @@ function SearchContent() {
     blogs: `
       *[
         (
-        _type == "blogsStandardDetails") && $query in tags
+        _type == "topic") && $query in tags
       ]{
         title,
         "slug": slug.current,

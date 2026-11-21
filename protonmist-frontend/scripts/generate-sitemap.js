@@ -13,10 +13,10 @@ const client = createClient({
 });
 
 // Your domain name
-const baseUrl = 'https://www.protoncave.com';
+const baseUrl = 'https://www.protonmist.com';
 
 async function fetchSlugs() {
-  const blogStandardSlugs = await client.fetch(`*[_type == "blogsStandardDetails" && defined(slug.current)]{ "slug": slug.current }`);
+  const blogStandardSlugs = await client.fetch(`*[_type == "topic" && defined(slug.current)]{ "slug": slug.current }`);
 
   return {
     blogStandard: blogStandardSlugs.map(item => `${baseUrl}/blog-standard-post/${item.slug}`)
