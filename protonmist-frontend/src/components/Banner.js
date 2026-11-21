@@ -6,7 +6,7 @@ export default function Banner() {
   return (
     <div className="bannerContainer">
       <Image
-        src="/japan.avif"
+        src="/snow.avif"
         alt="Banner"
         layout="fill"
         objectFit="cover"
