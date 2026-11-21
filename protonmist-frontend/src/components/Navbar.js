@@ -26,8 +26,8 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navbar__logo navbar-item">
           <Link href="/">
-            <img src="/protoncave-logo1.png" alt="" className="navbar-large-logo" />
-            <img src="/protoncave-icon.png" alt="" className="navbar-small-logo" />
+            <img src="/protonmist-logo.png" alt="" className="navbar-large-logo" />
+            <img src="/protonmist-icon.png" alt="" className="navbar-small-logo" />
           </Link>
         </div>
 
